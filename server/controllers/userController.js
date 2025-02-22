@@ -84,7 +84,7 @@ metadata:{
 })
 
 
-res.json({success: true, session_ur: session.url})
+res.json({success: true, session_url: session.url})
 
 
 
