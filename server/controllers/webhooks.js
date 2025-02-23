@@ -102,13 +102,13 @@ switch(event.type){
 
         const courseData = await Course.findById(purchaseData.courseId.toString())
 
-courseData.enrolledStudents.push(userData._id)
+courseData.enrolledStudents.push(userData)
 await courseData.save()
 
 userData.enrolledCourses.push(courseData._id)
 await userData.save()
 
-purchaseData.status= "completed";
+purchaseData.status= 'completed'
 await purchaseData.save();
 
 break;
