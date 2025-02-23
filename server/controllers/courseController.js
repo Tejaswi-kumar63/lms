@@ -17,7 +17,7 @@ export const getAllCourse = async (req, res) => {
 
 }
 
-// Get Course by Id
+// Get Course by Id function
 export const getCourseId = async (req, res) => {
 
     const { id } = req.params
