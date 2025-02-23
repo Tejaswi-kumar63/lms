@@ -8,13 +8,14 @@
   font-family: Outfit;
 }
 
-@layer base{
+@layer base {
   html {
     scroll-behavior: smooth;
   }
 }
+
 ::-webkit-scrollbar{
-  display:none;
+  display: none;
 }
 
 .rich-text { font-size: 15px; color: #7A7B7D; }
